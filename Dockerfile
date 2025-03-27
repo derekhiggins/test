@@ -1,4 +1,4 @@
-FROM quay.io/centos/centos:stream8
+FROM quay.io/centos/centos:stream9
 
 COPY prepare.sh prepare.sh
 RUN ./prepare.sh
